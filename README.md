@@ -169,3 +169,9 @@ docker exec \
 Source  : https://blog.chhaileng.com/posts/hyperledger-fabric-fabcar-client-app/
 
 #### Follow the procedure as per the guide lines 
+
+### Appendix
+Troubleshooting commands for docker swarm
+docker service ps hlf_orderer_orderer_org1
+docker stack ps hlf_orderer_orderer_org1
+
