@@ -173,5 +173,8 @@ Source  : https://blog.chhaileng.com/posts/hyperledger-fabric-fabcar-client-app/
 ### Appendix
 Troubleshooting commands for docker swarm
 docker service ps hlf_orderer_orderer_org1
-docker stack ps hlf_orderer_orderer_org1
+docker stack ps hlf_orderer_orderer_org1 
+
+Identify the ID and do docker inspect for error message
+docker inspect {ID}
 
