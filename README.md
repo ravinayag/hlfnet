@@ -178,3 +178,5 @@ docker stack ps hlf_orderer_orderer_org1
 Identify the ID and do docker inspect for error message
 docker inspect {ID}
 
+docker stack ps hlf_services
+
